@@ -9,11 +9,32 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AboutClients: typeof import('./components/about/AboutClients.vue')['default']
+    AboutClientSingle: typeof import('./components/about/AboutClientSingle.vue')['default']
+    AboutCounter: typeof import('./components/about/AboutCounter.vue')['default']
+    AboutMe: typeof import('./components/about/AboutMe.vue')['default']
+    AppBanner: typeof import('./components/shared/AppBanner.vue')['default']
+    AppFooter: typeof import('./components/shared/AppFooter.vue')['default']
+    AppHeader: typeof import('./components/shared/AppHeader.vue')['default']
+    AppHeaderLinks: typeof import('./components/shared/AppHeaderLinks.vue')['default']
+    Button: typeof import('./components/reusable/Button.vue')['default']
+    ContactDetails: typeof import('./components/contact/ContactDetails.vue')['default']
+    ContactForm: typeof import('./components/contact/ContactForm.vue')['default']
+    FooterCopyright: typeof import('./components/shared/FooterCopyright.vue')['default']
+    HireMeModal: typeof import('./components/HireMeModal.vue')['default']
+    ProjectGallery: typeof import('./components/projects/ProjectGallery.vue')['default']
+    ProjectHeader: typeof import('./components/projects/ProjectHeader.vue')['default']
+    ProjectInfo: typeof import('./components/projects/ProjectInfo.vue')['default']
+    ProjectRelatedProjects: typeof import('./components/projects/ProjectRelatedProjects.vue')['default']
+    ProjectsFilter: typeof import('./components/projects/ProjectsFilter.vue')['default']
+    ProjectsGrid: typeof import('./components/projects/ProjectsGrid.vue')['default']
+    ProjectSingle: typeof import('./components/projects/ProjectSingle.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
+    ThemeSwitcher: typeof import('./components/ThemeSwitcher.vue')['default']
   }
 }
