@@ -5,6 +5,7 @@ module.exports = {
       script: "pnpm",
       args: "start",
       watch: true,
+      port: 4005,
     },
   ],
 };
