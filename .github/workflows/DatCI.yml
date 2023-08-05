@@ -25,12 +25,6 @@ jobs:
         with:
           node-version: "18.x"
 
-      - name: Install nvm
-        run: npm install -g nvm
-
-      - name: Use node 18
-        run: nvm use 18
-
       - name: Install pnpm
         run: npm install -g pnpm
 
@@ -41,4 +35,4 @@ jobs:
         run: pnpm build
 
       - name: restart pm2
-        run: pm2 restart portfolio
+        run: pm2 start Datsercom
