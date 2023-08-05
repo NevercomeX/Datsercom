@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: "18.x"
 
+      - name: Install node 18
+        run: nvm install 18.16.0
+
       - name: Use node 18
         run: nvm use 18
 
