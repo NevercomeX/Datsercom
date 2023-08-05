@@ -33,6 +33,8 @@ cypress/videos
 *.pem
 Thumbs.db
 
+nginx.conf
+
 # debug
 npm-debug.log*
 pnpm-debug.log*
