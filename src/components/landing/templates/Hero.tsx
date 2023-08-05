@@ -6,7 +6,7 @@ import { Logo } from './Logo';
 import Nevercomex from "../../nevercomex/copyright"
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-gray-100 " >
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
       </NavbarTwoColumns>

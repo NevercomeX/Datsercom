@@ -1,5 +1,5 @@
 {
-  "name": "Datsercom",
+  "name": "datsercom",
   "version": "3.14.0",
   "scripts": {
     "dev": "next dev",
