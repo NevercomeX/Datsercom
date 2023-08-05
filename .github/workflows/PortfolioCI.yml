@@ -9,7 +9,9 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: Datsercom
+    runs-on:
+      group: Ubuntu-Runner
+      labels: datsercom
 
     steps:
       - name: Checkout Main Branch
