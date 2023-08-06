@@ -3,7 +3,6 @@ import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
-import Nevercomex from "../../nevercomex/copyright"
 
 const Hero = () => (
   <Background color="bg-gray-100 " >
