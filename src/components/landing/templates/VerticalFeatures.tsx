@@ -3,27 +3,26 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Servers"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Servidores en rack PowerEdge"
   >
     <VerticalFeatureRow
-      title="Dell Servers"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/dellimages/dell01.png"
-      imageAlt="First feature alt text"
+      title="Servidores de un conector"
+      description="Los servidores en rack de un socket (una sola CPU) ofrecen un equilibrio rentable entre el rendimiento y la capacidad de almacenamiento para facilitar la TI. Están diseñados para crecer y evolucionar fácilmente a la par de su negocio."
+      image="/assets/dellimages/dell04.png"
+      imageAlt="SERVIDORES DE UN CONECTOR"
     />
     <VerticalFeatureRow
-      title="Dell Servers"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/dellimages/dell02.png"
-      imageAlt="Second feature alt text"
+      title="Servidores de dos conector"
+      description="Los servidores en rack de dos sockets (CPU doble) brindan una amplia variedad de funciones para admitir las cargas de trabajo más exigentes. Se ofrecen en configuraciones de precio y rendimiento que se adaptan a la mayoría de los ambientes."
+      image="/assets/dellimages/dell05.png"
+      imageAlt="SERVIDORES DE DOS CONECTORES"
       reverse
     />
     <VerticalFeatureRow
-      title="Dell Servers"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/dellimages/dell03.png"
-      imageAlt="Third feature alt text"
+      title="Servidores de cuatro conector"
+      description="Los servidores en rack de cuatro sockets (cuatro CPU) son los que lidian con el trabajo duro del centro de datos, ya que ofrecen el rendimiento más alto para las cargas de trabajo más exigentes, como la análisis de datos, la IA y la aceleración de la base de datos de GPU."
+      image="/assets/dellimages/dell06.png"
+      imageAlt="SERVIDORES DE CUATRO CONECTORES"
     />
   </Section>
 );

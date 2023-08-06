@@ -20,10 +20,11 @@ const Hero = () => (
             <span className="text-primary-500">🚧</span>
           </>
         }
-        description="loren ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="Innovación y Servicios Informáticos en Cualquier Lugar."
         button={
           <div className='flex justify-center'>
-            <Nevercomex/>
+           <p> 
+           </p>
             </div>
 
         }
