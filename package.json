@@ -9,7 +9,7 @@
     "build-prod": "run-s clean build",
     "clean": "rimraf .next .swc out coverage",
     "lint": "next lint",
-    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
+    "format": "next lint --fix && prettier **/*.{json,yaml} --write --ignore-path .gitignore",
     "check-types": "tsc --noEmit --pretty && tsc --project cypress --noEmit --pretty",
     "test": "jest",
     "commit": "cz",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
-    "next": "^13.4.12",
+    "next": "^13.4.13",
     "next-seo": "^6.1.0",
     "next-sitemap": "^4.1.8",
     "react": "^18.2.0",
