@@ -1,8 +1,8 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import { Button } from '../button/Button';
-import { CTABanner } from '../cta/CTABanner';
-import { Section } from '../layout/Section';
+import { Button } from "../button/Button";
+import { CTABanner } from "../cta/CTABanner";
+import { Section } from "../layout/Section";
 
 const Banner = () => (
   <Section>
@@ -10,8 +10,8 @@ const Banner = () => (
       title="Acelere la transformación informática en cualquier lugar"
       subtitle=""
       button={
-        <Link href="#">
-          <Button>Get Started</Button>
+        <Link href="https://wa.me/18094805488">
+          <Button>+1 (809) 480-5488</Button>
         </Link>
       }
     />
