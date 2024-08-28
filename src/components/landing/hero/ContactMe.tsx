@@ -6,7 +6,7 @@ const ContactMe = () => (
       </div>
       <br />
       <div className="text-gray-700 text-4xl ">
-        <a href="mailto:datsercom@claro.net.do ">Email</a>
+        <a href="mailto:datsercom@claro.net.do ">datsercom@claro.net.do</a>
       </div>
     </div>
   </section>
