@@ -3,18 +3,18 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Servicios Tecnicos Informaticos"
+    title="Servidores en rack PowerEdge"
   >
     <VerticalFeatureRow
       title="Servidores de un conector"
       description="Los servidores en rack de un socket (una sola CPU) ofrecen un equilibrio rentable entre el rendimiento y la capacidad de almacenamiento para facilitar la TI. Están diseñados para crecer y evolucionar fácilmente a la par de su negocio."
-      image="/assets/dellimages/datsercom1.jpg"
+      image="/assets/dellimages/dell04.png"
       imageAlt="SERVIDORES DE UN CONECTOR"
     />
     <VerticalFeatureRow
       title="Servidores de dos conector"
       description="Los servidores en rack de dos sockets (CPU doble) brindan una amplia variedad de funciones para admitir las cargas de trabajo más exigentes. Se ofrecen en configuraciones de precio y rendimiento que se adaptan a la mayoría de los ambientes."
-      image="/assets/dellimages/datsercome2.jpg"
+      image="/assets/dellimages/dell05.png"
       imageAlt="SERVIDORES DE DOS CONECTORES"
       reverse
     />

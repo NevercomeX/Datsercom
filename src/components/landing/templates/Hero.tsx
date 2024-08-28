@@ -3,6 +3,8 @@ import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
+import { CentralImagen } from '../feature/CentralImage';
+
 
 const Hero = () => (
   <Background color="bg-gray-100 " >
@@ -14,12 +16,12 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
+    <Section yPadding="">
       <HeroOneButton
         title={
           <>
             {'DATSERCOM\n'}
-            <span className="text-primary-500">🚧</span>
+            <span className="text-primary-500"></span>
           </>
         }
         description="Innovación y Servicios Informáticos en Cualquier Lugar."
@@ -31,6 +33,15 @@ const Hero = () => (
 
         }
       />
+      <div className='flex-col lg:flex lg:flex-row '>      <CentralImagen
+    
+    image="/assets/dellimages/datsercom1.jpg"
+    ></CentralImagen>
+          <CentralImagen
+  
+  image="/assets/dellimages/datsercom2.jpg"
+  ></CentralImagen></div>
+
     </Section>
   </Background>
 );
