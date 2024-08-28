@@ -2,7 +2,7 @@
 const FooterCopyright = () => (
   <div className="footer-copyright">
     © Copyright {new Date().getFullYear()} Datsercom. Made by{' '}
-    <a href="https://nevercomex.com">NX</a>.
+    <a href="https://ljjs.com">NX</a>.
     {/*
      * PLEASE READ THIS SECTION
      * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
