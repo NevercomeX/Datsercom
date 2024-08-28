@@ -2,7 +2,7 @@
   "name": "datsercom",
   "version": "3.14.0",
   "scripts": {
-    "dev": "run-p dev:*",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start -p 4005",
     "build-stats": "cross-env ANALYZE=true npm run build",
